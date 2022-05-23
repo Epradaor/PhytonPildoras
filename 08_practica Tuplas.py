@@ -1,0 +1,13 @@
+miTupla=("Juan", 13.1, 1, 1995, 13.1)
+print(miTupla[1])
+miLista=list(miTupla)
+print(miTupla)
+mitupla2=tuple(miLista)
+print(mitupla2)
+print ("Juan" in mitupla2)
+print (mitupla2.count(13.1))
+print(len(mitupla2))
+mitupla3=("Juan",)
+nombre, dia, mes, agno, agno2 = miTupla
+print (nombre)
+print (agno)
